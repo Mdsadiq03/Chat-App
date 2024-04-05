@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+//for loading class
 class SplashScreen extends StatelessWidget{
   const SplashScreen({super.key});
 
@@ -16,5 +16,4 @@ class SplashScreen extends StatelessWidget{
       ),
     );
   }
-
 }
