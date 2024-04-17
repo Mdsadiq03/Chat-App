@@ -67,7 +67,7 @@ class _AuthScreenState extends State<AuthScreen> {
       }
     } on FirebaseAuthException catch (error) {
       if (error.code == 'email-already-in-use') {
-        //..
+        //Add up your code...
       }
 
       ScaffoldMessenger.of(context).clearSnackBars();
